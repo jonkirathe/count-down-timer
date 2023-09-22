@@ -2,7 +2,7 @@
 
 Simple, easy to use, countdown for angular
 
-https://img.shields.io/github/downloads/Jonnykratz/count-down-timer/total
+![GitHub all releases](https://img.shields.io/github/downloads/Jonnykratz/count-down-timer/total)
 
 
 ## Usage
