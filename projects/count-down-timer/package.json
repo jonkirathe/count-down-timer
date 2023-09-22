@@ -1,6 +1,12 @@
 {
-  "name": "count-down-timer",
-  "version": "0.0.1",
+  "name": "@kirathe/count-down-timer",
+  "version": "1.0.1",
+  "description": "This is a timer that displays the count down progress bar on the count down timer screen. The timer will automatically refresh every second.",
+  "author": {"name": "John Kirathe", "email": "kirathendegwar@gmail.com", "url": "https://github.com/Jonnykratz"},
+  "repository": {"type": "git", "url": "https://github.com/Jonnykratz/count-down-timer"},
+  "homepage": "https://github.com/Jonnykratz/count-down-timer",
+  "keywords": ["timer", "angular", "angularv16"],
+  "license":"MIT",
   "scripts": {
     "build-library": "ng build count-down-timer"
   },
