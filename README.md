@@ -1,8 +1,10 @@
 # @kirathe/count-down-timer
 
-Simple, easy to use, countdown for angular
+Simple, easy-to-use, countdown for angular
 
 ![GitHub all releases](https://img.shields.io/github/downloads/Jonnykratz/count-down-timer/total)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/Jonnykratz)
+
 
 
 ## Usage
