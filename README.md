@@ -17,11 +17,6 @@ Simple, easy-to-use, countdown for angular
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/JonnyKratz/count-down-timer/main)
 
 
-
-
-
-
-
 ## Usage
 
 ### 1. Install
