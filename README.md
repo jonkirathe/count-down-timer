@@ -4,6 +4,8 @@ Simple, easy-to-use, countdown for angular
 
 ![GitHub all releases](https://img.shields.io/github/downloads/Jonnykratz/count-down-timer/total)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/Jonnykratz)
+![GitHub language count](https://img.shields.io/github/languages/count/Jonnykratz/count-down-timer)
+
 
 
 
