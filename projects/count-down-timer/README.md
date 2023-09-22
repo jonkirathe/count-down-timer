@@ -16,12 +16,6 @@ Simple, easy-to-use, countdown for angular
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/kirathendegwa)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/JonnyKratz/count-down-timer/main)
 
-
-
-
-
-
-
 ## Usage
 
 ### 1. Install
@@ -40,19 +34,7 @@ import { CountDownTimerComponent } from '@kirathe/count-down-timer';
   standalone: true,
   imports: [CommonModule, CountDownTimerComponent],
   template: `
-      <count-down-timer [countDownTimerTemplate]="timerTemplate" [dDay]="date">
-        <ng-template
-            #timerTemplate
-            let-days="daysToDDay"
-            let-hours="hoursToDDay"
-            let-minutes="minutesToDDay"
-            let-seconds="secondsToDDay">
-            <label class="text-danger">
-			Count Down To The Next Release: {{ days }}
-              <a class="h6">Day(s) {{ hours }}: {{ minutes }}: {{ seconds }}</a>
-			</label>
-        </ng-template>
-    </count-down-timer>
+      <count-down-timer [dDay]="date"></count-down-timer>
   `,
   styleUrls: ['./header.component.scss'],
 })
@@ -62,6 +44,10 @@ export class HeaderComponent { date = new Date('2023-12-06 04:29:40'); }
 ### 2、Template
 
 ```html
+If you want to use the default template, you can use the following code:
+<count-down-timer [dDay]="date"></count-down-timer>
+
+If you want to customize the template, you can use the following code:
     <count-down-timer [countDownTimerTemplate]="timerTemplate" [dDay]="date">
         <ng-template
             #timerTemplate
