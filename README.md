@@ -89,4 +89,4 @@ Thanks for understanding!
 
 ### License
 
-The MIT License (see the [LICENSE](https://github.com/Jonnykratz/count-down-timer/LICENSE) file for the full text)
+The MIT License (see the [LICENSE](https://github.com/Jonnykratz/count-down-timer/blob/main/LICENSE) file for the full text)
