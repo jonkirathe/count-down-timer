@@ -6,7 +6,6 @@ import { NgTemplateOutlet } from '@angular/common';
   selector: 'count-down-timer',
   template: `
     <div class="timer">
-      <!-- context: { $implicit: data } -->
       <ng-container
         *ngTemplateOutlet="
           countDownTimerTemplate || defaultTemplate;
@@ -14,9 +13,9 @@ import { NgTemplateOutlet } from '@angular/common';
       </ng-container>
       <ng-template #defaultTemplate>
         <span id="days">
-          {{ finalDaysToDDay }} <a class="h6">Day(s)</a> {{ finalHoursToDDay }}:
-          {{ finalMinutesToDDay }}:
-          {{ finalSecondsToDDay }}
+          {{ daysToDday }} <a class="h6">Day(s)</a> {{ this.hoursToDday < 10 ? '0' + this.hoursToDday : this.hoursToDday }}:
+          {{ this.minutesToDday < 10 ? '0' + this.minutesToDday : this.minutesToDday }}:
+          {{ this.secondsToDday < 10 ? '0' + this.secondsToDday : this.secondsToDday }}
         </span>
       </ng-template>
     </div>
@@ -35,11 +34,6 @@ export class CountDownTimerComponent {
   hoursInADay = 24;
   minutesInAnHour = 60;
   SecondsInAMinute = 60;
-
-  @Input() finalDaysToDDay: number;
-  @Input() finalHoursToDDay: number;
-  @Input() finalMinutesToDDay: number;
-  @Input() finalSecondsToDDay: number;
 
   public timeDifference: number;
   public secondsToDday: number;
@@ -81,23 +75,12 @@ export class CountDownTimerComponent {
   ngOnInit() {
     this.subscription = interval(1000).subscribe((x) => {
       this.getTimeDifference();
-    
-      this.finalDaysToDDay = this.daysToDday;
-      this.finalHoursToDDay = Number(
-        this.hoursToDday < 10 ? '0' + this.hoursToDday : this.hoursToDday
-      );
-      this.finalMinutesToDDay = Number(
-        this.minutesToDday < 10 ? '0' + this.minutesToDday : this.minutesToDday
-      );
-      this.finalSecondsToDDay = Number(
-        this.secondsToDday < 10 ? '0' + this.secondsToDday : this.secondsToDday
-      );
       this.payLoad = {
         $implicit: "default",
-        daysToDDay: this.finalDaysToDDay,
-        hoursToDDay: this.finalHoursToDDay,
-        minutesToDDay: this.finalMinutesToDDay,
-        secondsToDDay: this.finalSecondsToDDay
+        daysToDDay: this.daysToDday,
+        hoursToDDay: this.hoursToDday,
+        minutesToDDay: this.minutesToDday,
+        secondsToDDay: this.secondsToDday
       }
     });
   }
