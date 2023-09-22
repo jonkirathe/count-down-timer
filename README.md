@@ -1,3 +1,4 @@
+
 # @kirathe/count-down-timer
 
 Simple, easy-to-use, countdown for angular
@@ -15,6 +16,8 @@ Simple, easy-to-use, countdown for angular
 ![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Fkirathendegwa)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/kirathendegwa)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/JonnyKratz/count-down-timer/main)
+
+
 
 
 ## Usage
