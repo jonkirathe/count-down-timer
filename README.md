@@ -2,9 +2,22 @@
 
 Simple, easy-to-use, countdown for angular
 
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
+![npm](https://img.shields.io/npm/v/%40kirathe%2Fcount-down-timer)
+![npm collaborators](https://img.shields.io/npm/collaborators/%40kirathe%2Fcount-down-timer)
+![GitHub Repo stars](https://img.shields.io/github/stars/JonnyKratz/count-down-timer)
 ![GitHub all releases](https://img.shields.io/github/downloads/Jonnykratz/count-down-timer/total)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/Jonnykratz)
 ![GitHub language count](https://img.shields.io/github/languages/count/Jonnykratz/count-down-timer)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Jonnykratz/count-down-timer)
+![GitHub followers](https://img.shields.io/github/followers/Jonnykratz)
+![GitHub forks](https://img.shields.io/github/forks/JonnyKratz/count-down-timer)
+![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Fkirathendegwa)
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/kirathendegwa)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/JonnyKratz/count-down-timer/main)
+
+
+
 
 
 
