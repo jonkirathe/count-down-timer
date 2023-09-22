@@ -75,6 +75,7 @@ export class CountDownTimerComponent {
   ngOnInit() {
     this.subscription = interval(1000).subscribe((x) => {
       this.getTimeDifference();
+      
       this.payLoad = {
         $implicit: "default",
         daysToDDay: this.daysToDday,
