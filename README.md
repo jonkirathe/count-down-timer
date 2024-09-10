@@ -1,5 +1,6 @@
 
 # @kirathe/count-down-timer
+[![Love Angular badge](https://img.shields.io/badge/angular-love-blue?logo=angular&angular=love)](https://www.github.com/angular/angular)
 
 Simple, easy-to-use, countdown for angular
 
